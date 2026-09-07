@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+:root {
+
+	--bronze:#D3A54F;/* Golden Bronze */
+	--taupe:#423629;/* Taupe(Brown) */
+	--lavander:#7D6B91;/* Vintage Lavander */
+	--grapefruit:#FE6D73;/* Grapefruit Pink */
+	--blue:#0C6291;/* Baltic Blue */
+	--cream:#FFD996;
+}
+
+.caacupe-one-regular {
+		font-family: "Caacupe One", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+}
+
+
+
+* {box-sizing: border-box; margin: 0; padding: 0;}
+
+body {
+	background:var(--bronze);
+	color:var(--taupe);
+	line-height:1.5;
+	font-family: "Arial", sans-serif;
+}
+
+header {
+	background:var(--bronze);
+	font-size:30px;
+	padding:20px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.logo {
+	display:flex;
+	align-items:center;
+	font-size:100px;
+}
+
+
+
+.logo .logo-image img{
+	width:300px;
+	display:inline-block;
+}
+
+nav {
+	display:flex;
+	align-items:center;
+	gap:28px;
+}
+
+nav a{
+	color:var(--taupe);
+	text-decoration:none;
+	font-weight:600;
+	font-size:20px;
+}
+
+nav a:hover{
+	color:var(--blue);
+}
+
+
+main {
+	max-width:960px;
+	margin:48px auto;
+	padding:0 24px;
+}
+
+
+.hero{
+	/*background:linear-gradient(120deg,var(--lavander) 0%,var(--blue) 100%;*/
+	background:var(--lavander);
+	border-radius:24px;
+	padding:56px 48px;
+	margin-bottom:32px;
+	color:var(--cream);
+	position:relative;
+	overflow:hidden;
+}
+
+.shop-button {
+    display: inline-block;
+    background: var(--blue);
+    color: white;
+    text-decoration: none;
+    padding: 13px 28px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.shop-button:hover {
+    background: var(--taupe);
+}
